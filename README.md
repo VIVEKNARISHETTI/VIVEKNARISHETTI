@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @VIVEKNARISHETTI
 - 👀 I’m interested in FullStack Developer Role as a fresher
-- 🌱 I’m currently learning .Net
+- 🌱 I’m currently learning MERN
 - 💞️ I’m looking to collaborate on Developer Role
 - 📫 How to reach me 7730869994
 
