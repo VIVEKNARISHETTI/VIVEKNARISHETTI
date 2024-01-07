@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../icons/pyramid.png" type="image/x-icon">
+    <style>
+        h3{
+            color: blueviolet;
+        }
+        pre{
+            text-transform: capitalize;
+            font-size: large;
+            opacity: 0.7;
+        }
+        mark{
+            color: rgb(0, 0, 0)   ;
+            background-color: yellow;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOC ON SELECTORS</h1> <br>
+    <h3>ELEMENT SELECTOR:</h3><pre>the element selector selects HTML elements based on the element name 
+        <mark>p</mark> selects all <mark>&lt;p&gt;</mark> elements.
+    </pre>
+    <h3>Universal Selector</h3><pre>* Selects all HTML elements on the page 
+        * Selects all elements
+    </pre>
+    <h3>GROUP SELECTOR</h3><pre>The grouping selector selects all the HTML elements with the same style definitions.
+To group selectors, separate each selector with a comma
+        h1, h2,p selects all &lt;h1&gt; &lt;h2&gt; &lt;p&gt;</pre>
+        <h3>Id Selector</h3><pre> The ID selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select
+ one unique element! To select an element with a specific id, write a hash (#) character
+ , followed by the id of the element.</pre>
+<h3>CLASS SELECTOR</h3><pre>The class selector selects HTML elements with a specific class attribute. To select elements
+     with a specific class, write a period (.) character, followed by the class name</pre>
+     <h3>Descendant Selector</h3><pre>The descendant selector selects all elements that are descendants of a specified element
+        div p selects all &lt;p&gt; elements inside &lt;div&gt; elements
+     </pre>
+     <h3>CHILD SELECTOR</h3><pre> The child selector selects all elements that are the children of a specified element.
+             For example, div > p selects all &lt;p&gt; elements where the parent is a &lt;div&gt; element.</pre>
+</body>
+</html>
